@@ -12,6 +12,7 @@ obj
 /bazel-out
 
 # dependencies
+node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -28,7 +29,7 @@ speed-measure-plugin*.json
 
 # IDE - VSCode
 .vs
-.vscode
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
