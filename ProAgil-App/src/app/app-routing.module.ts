@@ -1,3 +1,4 @@
+import { PlanningpokerComponent } from './planningpoker/planningpoker/planningpoker.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'palestrantes', component: PalestrantesComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'contatos', component: ContatosComponent },
+  { path: 'planningpoker', component: PlanningpokerComponent },
   { path: '', redirectTo: 'dashboard', pathMatch: 'full'  },
   { path: '**', redirectTo: 'dashboard', pathMatch: 'full'  }
 ];

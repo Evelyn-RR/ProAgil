@@ -31,7 +31,7 @@ namespace ProAgil.WebAPI.Controllers
             }
             catch (System.Exception)
             {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de dados falhou!");
+                return this.StatusCode(StatusCodes.Status500InternalServerErr, "Banco de dados falhou!");
             }
            
         }
